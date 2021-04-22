@@ -16,8 +16,6 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -29,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot.png)
+![](./images/Screenshot.jpg)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://tabetommy.github.io/fylo-dark-theme-landing-page-master/)
 
 ## My process
 
@@ -46,16 +44,9 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 
 During this challenge, i learnt particularly how design responsive pages. Given that this is amongst my first webpages, I knew about responsive designing. Practising it was a whole different ball game. However at the end i was able to  to get my images, texts and containers responsive to sreen widths. 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+
 
 ### Continued development
 
