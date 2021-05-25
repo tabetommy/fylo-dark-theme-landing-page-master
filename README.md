@@ -25,10 +25,6 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](/images/Screenshot.jpg)
-
 ### Links
 
 - Live Site URL: (https://tabetommy.github.io/fylo-dark-theme-landing-page-master/)
@@ -40,7 +36,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- CSS Grid.
 
 ### What I learned
 
