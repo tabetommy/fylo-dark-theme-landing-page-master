@@ -19,11 +19,16 @@
 	<div>
  		<nav class="nav-bar">
 			<img src="images/logo.svg" alt="logo">
-	        <ul>
+			<div class="sm-bar">
+				<div class="toggle-btn"></div> 
+				<div class="toggle-btn"></div> 
+				<div class="toggle-btn"></div> 
+			</div>
+	     <ul>
 		      <li>Features</li>
 		      <li>Team</li>
 		      <li>Sign In</li>
-		    </ul>
+		   </ul>
 		</nav>
 		<div class="main-image">
 		 <img class="pic"
@@ -159,6 +164,18 @@
 				<a class="fa fa-instagram"></a>
 	        </div>
 	    </footer>
+	    <div id="lightbox-menu">
+        <div id="menu-whiteback">
+           <div id="icon-close-menu">
+           		<img src="./images/icon-close.svg" alt="icon-close" id="icon-close-img-menu">
+           </div> 
+           <div id="menu-items">
+           		<a href="#">Features</a>
+           		<a href="#">Team</a>
+        			<a href="#">SignIn</a>
+           </div>
+        </div>
+      </div>
 	    <div class="personalised">
 	    	<p class="attribution">
 		      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
@@ -166,5 +183,16 @@
 		    </p>
 	    </div>
 	</div>
+	<script>
+		const smBar=document.getElementsByClassName("sm-bar")[0];
+    const lightBoxMenu=document.getElementById("lightbox-menu");
+    const iconClose=document.getElementById("icon-close-menu");
+		smBar.addEventListener("click",()=>{
+ 		lightBoxMenu.classList.toggle("active-menu")
+		});
+		iconClose.addEventListener("click",()=>{
+  	lightBoxMenu.classList.remove("active-menu")
+		});
+	</script>
 </body>
 </html>
